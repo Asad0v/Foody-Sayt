@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: silver;
+        }
+        .sectiongrid{
+            max-width: 1120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+
+        }
+        .ourmenu{
+            max-width: 560px;
+            /* max-height: 255px;  */
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .ourmenu .sol{
+            width: 280px;
+            max-height: 100%;
+            background-color: white;
+            padding: 35px;
+            display: grid;
+            grid-template-rows: auto auto auto;
+            gap: 10px;
+            h4 {
+                color: black;
+            }
+            h3 {
+                /* color: var(--narinci); */
+                color: #ff7404;
+            }
+            p {
+                color: #A4AAB1;
+            }
+        }
+        .ourmenu .sag{
+            width: 280px;
+            height: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        
+        @media only screen  and (min-width:768px){
+            .sectiongrid{
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            .ourmenu{
+                width: 560px;
+                height: 255px;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin: auto;
+                /* justify-content: center;
+                align-items: center; */
+            }
+            .order{
+                order: -1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sectiongrid ">
+        <div class="ourmenu">
+            <div class="sol">
+                <h4>Grilled Caesar salad, shaved reggiano</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+                <h3>$12.00</h3>
+            </div>
+            <div class="sag">
+                <img src="img/price4.webp" alt="">
+            </div>
+        </div>
+        <div class="ourmenu">
+            <div class="sol">
+                <h4>Grilled Caesar salad, shaved reggiano</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+                <h3>$12.00</h3>
+            </div>
+            <div class="sag">
+                <img src="img/price2.webp" alt="">
+            </div>
+        </div>
+        <div class="ourmenu">
+            <div class="sol">
+                <h4>Grilled Caesar salad, shaved reggiano</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+                <h3>$12.00</h3>
+            </div>
+            <div class="sag order">
+                <img src="img/grid1.webp" alt="">
+            </div>
+        </div>
+        <div class="ourmenu">
+            <div class="sol">
+                <h4>Grilled Caesar salad, shaved reggiano</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+                <h3>$12.00</h3>
+            </div>
+            <div class="sag order">
+                <img src="../img/grid4.webp" alt="">
+            </div>
+        </div>
+        <div class="ourmenu">
+            <div class="sol">
+                <h4>Grilled Caesar salad, shaved reggiano</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+                <h3>$12.00</h3>
+            </div>
+            <div class="sag">
+                <img src="img/price4.webp" alt="">
+            </div>
+        </div>
+        <div class="ourmenu">
+            <div class="sol">
+                <h4>Grilled Caesar salad, shaved reggiano</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+                <h3>$12.00</h3>
+            </div>
+            <div class="sag">
+                <img src="img/price2.webp" alt="">
+            </div>
+        </div>
+        <div class="ourmenu">
+            <div class="sol">
+                <h4>Grilled Caesar salad, shaved reggiano</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+                <h3>$12.00</h3>
+            </div>
+            <div class="sag order">
+                <img src="img/grid1.webp" alt="">
+            </div>
+        </div>
+        <div class="ourmenu">
+            <div class="sol">
+                <h4>Grilled Caesar salad, shaved reggiano</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+                <h3>$12.00</h3>
+            </div>
+            <div class="sag order">
+                <img src="../img/grid4.webp" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

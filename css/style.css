@@ -1,0 +1,571 @@
+:root {
+    --narinci: #ff7404
+}
+.btnhover{ }
+.text-narinci {
+    color: var(--narinci) !important;
+}
+
+.text-boz {
+    color: #A4AAB1 !important;
+}
+
+.bg-boz {
+    background-color: #F8F9FA !important;
+}
+
+header {
+    position: relative;
+    overflow: hidden;
+}
+.posbutton{ 
+    position: absolute;
+    bottom: 69px !important;
+    button{
+        width: 9px !important;
+        height: 9px !important;
+        border-radius: 50% !important;
+
+    }
+    
+
+}
+/* .nav-item li a:nth-child(1){color: var(--narinci);} */
+    .nav-item .active{
+        color: var(--narinci) !important;
+    }
+.bg-narinci {
+    background-color: var(--narinci) !important;
+}
+
+#logo {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+}
+
+#nav {
+    
+    width: 100%;
+    margin: auto;
+    z-index: 99;
+    background-color: black !important;
+}
+.contact{
+    display: none !important;
+}
+.slider-bg {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.firstbutton {
+    bottom: 150px;
+}
+
+.trans {
+    top: 30%;
+    left: 30%;
+    transform: translate(-30% -30%);
+    
+}
+
+
+h1 {
+    font-size: 2em !important;
+
+
+}
+
+.btn-seffaf {
+    background-color: rgb(255, 255, 255, 0) !important;
+    width: 200px;
+    letter-spacing: 3px;
+}
+
+.icon1 {
+    background-color: var(--narinci);
+    height: 85px;
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+        font-size: 2rem;
+    }
+}
+
+
+
+.xett {
+    position: absolute;
+    height: 160px;
+    width: 100%;
+    bottom: -80px;
+    right: 0;
+    transform: translate(0, 0) scale(1.2) rotate(-5deg);
+    background-color: #F8F9FA;
+    z-index: 99;
+}
+
+
+main {
+    overflow: hidden;
+    
+}
+.section2 h5 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.section2-1 {
+    background-color: #F8F9FA;
+    position: relative;
+    padding: 150px 0;
+}
+.section3 {
+    position: relative;
+    margin-top: 225px;
+    padding: 100px 0 ;
+}
+.section4 {
+    padding: 100px 0 300px 0;
+    position: relative;
+}
+
+.section5 {
+    background-color: #F8F9FA;
+    padding: 100px 0 150px 0;
+    position: relative;
+}
+.section6{
+    padding: 200px 0 100px 0;
+    position: relative;
+    .xett{
+        background-color: #fff;
+    }
+}
+
+.section7{
+    padding: 150px 0 80px;
+    position: relative;
+    background-color: #F8F9FA;
+    .xett{
+        background-color: #ff7404;
+    }
+}
+.section7 .howpasta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price .yemek1 {
+    background: url('../img/grid1.webp') center/cover ;
+    width: 100%;
+    
+}
+.tund {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.526);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.price .dollar {
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--narinci);
+    font: bold 1.3rem Arial, helvetica, sans-serif;
+    color: white;
+    transition: 1s;
+}
+
+.price h3 {
+    font: bold 2rem Arial, helvetica, sans-serif;
+    max-width: 460px;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0 0;
+}
+
+.price .yemek2 {
+    background: url('../img/price2.webp') center/cover;
+    width: 100%;
+
+}
+
+.price .yemek3 {
+    background: url('../img/price3.webp') center/cover;
+    width: 100%;
+
+}
+.bolmeyuxari {
+    hr {
+        width: 80px;
+        background-color: var(--narinci) !important;
+        height: 2px;
+    }
+    h2 {
+        padding: 40px 0 25px;
+    }
+
+    p {
+        max-width: 630px;
+    }
+}
+
+.grids {
+    display: grid;
+    grid-template-rows: 465px 230px 230px 465px;
+    gap: 10px;
+}
+
+#grid1 {
+    background: url('../img/grid1.webp') center/cover;
+}
+
+#grid2 {
+    background: url('../img/grid2.webp') center/cover;
+}
+
+#grid3 {
+    background: url('../img/grid3.webp') center/cover;
+}
+
+#grid4 {
+    background: url('../img/grid4.webp') center/cover;
+}
+
+.sectiongrid{
+    max-width: 1120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.ourmenu{
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.ourmenu .sol{
+    width: 280px;
+    max-height: 100%;
+    background-color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 5px;
+    h4 {
+        color: black;
+    }
+    h3 {
+        color: #ff7404;
+    }
+    p {
+        color: #A4AAB1;
+    }
+}
+.ourmenu .sag{
+    width: 280px;
+    height: 100%;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.section6 .bolmeyuxari{
+    padding-bottom: 122px;
+}
+.section6 .about{
+    font: 1.3em  Arial, Helvetica, sans-serif ;
+    text-align: justify;
+}
+.sliderbutton{ 
+    height: 7px !important;
+    width: 7px !important;
+    background-color: #e5e5e5 !important;
+}
+.sliderheight{ 
+    height: 50vh;
+    max-width: 630px;
+}
+.testimonial{
+    display: flex;
+    flex-direction: row;
+
+    img{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+    .isim{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10px ;
+    }
+}
+.how{
+    max-width: 510px;
+    padding: 10px;
+}
+.how img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.how .date{
+     background-color: #fff;
+     padding: 35px;
+     h3{
+        color: var(--narinci);
+     }
+     :nth-child(2) {
+        color: #e2e2e2;
+     }
+     :nth-child(3) {
+        color: #868E96;
+     }
+}
+footer{
+    position: relative;
+    background-color: #fff;
+    padding: 200px 15px 50px 0;
+    overflow: hidden;
+    .xett{
+        background-color: #F8F9FA;
+        top: -100px;
+        right: 0;
+    }
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscribe h5{
+    font:bold 1em Arial, sans-serif;    
+}
+.subscribe p{
+    width: 70vw;  
+    text-align: center;
+    color: #868E96;
+    font: .9em Arial, sans-serif;
+}
+.inp form{
+    display: flex;
+    flex-direction: column; 
+    width: 70vw;  
+}
+
+.inp input{
+    padding: 10px;
+}
+.ftbottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.ftabout , .ftinfo, .quicks {
+    padding: 70px 0; 
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    width: 23.33%;
+}
+.ftabout h5 , .ftinfo h5, .quicks h5{font:bold 1em Arial, sans-serif;  }
+.ftabout p, .ftinfo p{
+    color: #868E96;
+    font: .9em Arial, sans-serif;
+    padding: 25px 0 ;
+    letter-spacing: 1px;
+}
+.ftabout .icons i{ 
+    color: var(--narinci);
+    padding: 1.5%;
+}
+.ftinfo span{color: black; }
+.quicks a{
+    text-decoration: none;
+    color: var(--narinci);
+    padding: 1%;
+}
+@media only screen and (min-width:768px) {
+    .trans {
+        top: 30%;
+        left: 30%;
+    }
+    h1 {font-size: 70px !important;}    
+
+    .btn-seffaf:hover {
+        background-color: white !important;
+        color: #000 !important;
+    }
+    #nav{
+        position: absolute;
+        top: 30px;
+        background-color: rgba(255, 255, 255, 0) !important;
+        display: initial !important;
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    #logo{
+        padding-right: 25%  ;
+    }
+
+    .grids {
+        grid-template-rows: 230px 230px;
+        grid-template-columns: 350px 350px 350px;
+        justify-content: center;
+    }
+
+    #grid1 {
+        grid-area: 1/ 1 / span 2 / span 1;
+    }
+
+    #grid2 {
+        grid-area: 1 / 2 / span 1 / span 1;
+    }
+
+    #grid3 {
+        grid-area: 2 / 2 / span 1 / span 1;
+    }
+
+    #grid4 {
+        grid-area: 1 / 3 / span 2 / span 1;
+    }
+
+    .price {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .price .yemek1 {
+        width: 487px;
+    }
+    
+    .price .yemek2 {
+        width: 487px;
+
+    }
+
+    .price .yemek3 {
+        width: 487px;
+        ;
+    }
+    .price .yemek1:hover .dollar {
+        background-color: rgb(255, 228, 196, 0);
+        border: 1px solid white;
+
+    }
+
+    .price .yemek2:hover .dollar {
+        background-color: rgb(255, 228, 196, 0);
+        border: 1px solid white;
+    }
+
+    .price .yemek3:hover .dollar {
+        background-color: rgb(255, 228, 196, 0);
+        border: 1px solid white;
+    }
+
+    .order1 {order: 1;}
+
+    .section5-1 {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .sectiongrid{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .ourmenu{
+        width: 560px;
+        height: 255px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .order{
+        order: -1;
+    }
+    .carousel-indicators .active{
+        background-color: var(--narinci) !important;
+        scale: 1.1;
+    }
+    .section7 .howpasta{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .how{
+            padding: 0 15px;
+        }
+    }
+    .inp form{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;  
+        justify-content: center;  
+        max-width: 510px;
+       
+    }
+    .subscribe p{max-width: 510px;}
+    .inp form input{width: 70%;}
+    .inp form button{width: 30%;}
+    .inp form input:hover { color: var(--narinci);}
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ftbottom{
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+        max-width: 90vw;
+        margin: auto;
+    }
+    .ftabout , .ftinfo, .quicks{
+        max-width: 30vw;
+        padding: 70px 1%;
+    }
+    .ftinfo,.quicks{
+        display: flex;
+        flex-direction: column;
+    }
+    .ftinfo p{
+        text-align: left;
+    }
+    .btnhover{transition: .5sn;}
+    .btnhover:hover{ 
+        background-color: #fff !important;
+        color: var(--narinci) !important;
+    }
+}
